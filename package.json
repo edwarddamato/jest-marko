@@ -1,0 +1,13 @@
+{
+  "name": "jest-marko",
+  "version": "0.0.1",
+  "description": "Transformer that allows consumption of .marko files in Jest.",
+  "main": "index.js",
+  "repository": "git@github.com:edwarddamato/jest-marko.git",
+  "author": "Edward D'Amato <info@edwarddamato.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "marko": "^4.2.8"
+  }
+}
