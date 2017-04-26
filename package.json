@@ -1,13 +1,13 @@
 {
   "name": "jest-marko",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Transformer that allows consumption of .marko files in Jest.",
   "main": "index.js",
   "config": {
     "eslintDir": "**/*.js"
   },
   "scripts": {
-    "test": "npm run clean && npm run lint && jest --verbose --no-cache",
+    "test": "jest --verbose --no-cache",
     "lint": "eslint \"$npm_package_config_eslintDir\"",
     "lint:fix": "eslint --fix \"$npm_package_config_eslintDir\"",
     "clean": "del \"**/*.marko.js\"",

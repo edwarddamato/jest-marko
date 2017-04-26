@@ -1,0 +1,12 @@
+class {
+    getValue() {
+      return this.getEl(this.input.id).value;
+    }
+}
+
+<div class="field">
+    <label.field_label for-key=input.id>$!{input.label}</label>
+    <span class="field_control field_control--textbox">
+        <input class="textbox" key=input.id type="text" placeholder=input.placeholder />
+    </span>
+</div>
